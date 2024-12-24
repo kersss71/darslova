@@ -24,20 +24,6 @@ function App() {
 
       {/* Decorative String */}
       <div className="flex justify-center mb-12">
-        {/* <div className="relative">
-          <div className="border-t border-dashed border-black w-48 md:w-64"></div>
-          <div className="absolute top-0 flex justify-between w-full transform -translate-y-1/2">
-            {[1, 2, 3, 4, 5].map((_, index) => (
-              <div
-                key={index}
-                className="w-3 h-3 rounded-full"
-                style={{
-                  backgroundColor: index % 2 === 0 ? "#A8D1D1" : "#FFB5B5",
-                }}
-              ></div>
-            ))}
-          </div>
-        </div> */}
         <img src={lamp} alt="гирлянда" width={280} />
       </div>
 
@@ -46,10 +32,10 @@ function App() {
         <p className="text-lg p">
           Сайт проекта «Дар слова» находится в разработке.
         </p>
-        <p className="italic text-lg  p">
+        <p className=" text-lg  p">
           Немного терпения и здесь будет тепло и светло, как везде,
         </p>
-        <p className="italic text-lg  p">
+        <p className=" text-lg  p">
           где мы беремся создать атмосферу. Мы - Агенство культурных событий «5
           УТРА».
         </p>
