@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Подключи шрифт A DAY WITHOUT SUN из папки fonts */
+
+.dar {
+  font-family: "A DAY WITHOUT SUN Regular";
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+.p {
+  font-family: "Lumios";
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .dar {
+    font-size: 8rem;
+  }
+}

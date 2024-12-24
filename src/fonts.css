@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "A DAY WITHOUT SUN Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: 
+    url(/fonts/A\ DAY\ WITHOUT\ SUN.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Lumios";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/Lumios\ Marker.otf) format("opentype");
+}
+
