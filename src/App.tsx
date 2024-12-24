@@ -1,5 +1,5 @@
-import React from "react";
 import { Phone, MessageCircle } from "lucide-react";
+import logo from "./accets/logo.png";
 import lamp from "./accets/lamp.png";
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
 
         {/* Logo */}
         <div className="flex justify-center items-center mb-16">
-          <img src="../src/accets/logo.png" alt="logo" width={100} />
+          <img src={logo} alt="logo" width={100} />
         </div>
       </div>
 
@@ -39,7 +39,6 @@ function App() {
           </div>
         </div> */}
         <img src={lamp} alt="гирлянда" width={280} />
-
       </div>
 
       {/* Main Text */}
@@ -61,11 +60,21 @@ function App() {
         <p className="font-medium mb-4 ">Контакты для связи с нами:</p>
         <div className="flex items-center justify-center gap-2 mb-2">
           <Phone size={16} />
-          <a href="tel:+79267888962" className="text-black-500  hover:underline">Тел: +7 926 788-89-62</a>
+          <a
+            href="tel:+79267888962"
+            className="text-black-500  hover:underline"
+          >
+            Тел: +7 926 788-89-62
+          </a>
         </div>
         <div className="flex items-center justify-center gap-2 mb-8 p">
           <MessageCircle size={16} />
-          <a href="https://t.me/pyat_utra_agency" className="text-black-500 hover:underline">TГ: @pyat_utra_agency</a>
+          <a
+            href="https://t.me/pyat_utra_agency"
+            className="text-black-500 hover:underline"
+          >
+            TГ: @pyat_utra_agency
+          </a>
         </div>
       </div>
 

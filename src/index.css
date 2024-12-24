@@ -5,7 +5,7 @@
 /* Подключи шрифт A DAY WITHOUT SUN из папки fonts */
 
 .dar {
-  font-family: "A DAY WITHOUT SUN Regular";
+  font-family: A DAY WITHOUT SUN Regular;
   font-size: 9rem;
   font-weight: 400;
   font-stretch:narrower;
