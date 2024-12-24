@@ -6,8 +6,9 @@
 
 .dar {
   font-family: "A DAY WITHOUT SUN Regular";
-  font-size: 8rem;
-  font-weight: 600;
+  font-size: 9rem;
+  font-weight: 400;
+  font-stretch:narrower;
 }
 
 .p {

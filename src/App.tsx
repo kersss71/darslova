@@ -1,6 +1,6 @@
 import React from "react";
 import { Phone, MessageCircle } from "lucide-react";
-
+import lamp from "./accets/lamp.png";
 function App() {
   return (
     <div className="min-h-screen bg-[#FFF3DD] flex flex-col items-center justify-center p-4 md:p-8">
@@ -20,11 +20,11 @@ function App() {
       </div>
 
       {/* Main Title */}
-      <h1 className="text-4xl mb-8 font-light tracking-wider dar">ДАР СЛОВА</h1>
+      <h1 className="text-4xl mb-4 font-light tracking-wider dar">ДАР СЛОВА</h1>
 
       {/* Decorative String */}
       <div className="flex justify-center mb-12">
-        <div className="relative">
+        {/* <div className="relative">
           <div className="border-t border-dashed border-black w-48 md:w-64"></div>
           <div className="absolute top-0 flex justify-between w-full transform -translate-y-1/2">
             {[1, 2, 3, 4, 5].map((_, index) => (
@@ -37,7 +37,9 @@ function App() {
               ></div>
             ))}
           </div>
-        </div>
+        </div> */}
+        <img src={lamp} alt="гирлянда" width={300} />
+
       </div>
 
       {/* Main Text */}
