@@ -38,7 +38,7 @@ function App() {
             ))}
           </div>
         </div> */}
-        <img src={lamp} alt="гирлянда" width={300} />
+        <img src={lamp} alt="гирлянда" width={280} />
 
       </div>
 
